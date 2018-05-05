@@ -11,7 +11,7 @@ class SideBar2 extends Component {
         }}>
           EXPLORER
         </p>
-        
+        <div className="gussePic"></div>
       </div>
     );
   }

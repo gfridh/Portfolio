@@ -5,7 +5,6 @@ import SideBar1 from './SideBar1';
 import SideBar2 from './SideBar2';
 import SideBar3 from './SideBar3';
 
-
 var divStyle = {
   backgroundColor:'red',
 };

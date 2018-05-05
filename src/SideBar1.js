@@ -5,23 +5,34 @@ import gitHub from'./gitHub.png';
 class SideBar1 extends Component {
   render() {
     return (
+
+
       <div className="SideBar1">
-        <img style={{
+
+            <a href="https://www.facebook.com/gustav.fridh.9">
+                <img alt="" style={{
           height:'20px',
           width:'20px'
         }} src={mainLogo}/>
+      </a>
 
-        <img style={{
-          paddingTop:'20px',
-          height:'20px',
-          width:'20px'
-        }} src={linkedIn}/>
+        <a href="https://www.linkedin.com/in/gustav-fridh-909a1b11b/">
+          <img alt="" style={{
+            paddingTop:'20px',
+            height:'20px',
+            width:'20px'
+          }} src={linkedIn}/>
+        </a>
 
-<img style={{
-          paddingTop:'20px',
-          height:'20px',
-          width:'20px'
-        }} src={gitHub}/>
+
+        <a href="https://github.com/gfridh">
+          <img alt="" style={{
+                    paddingTop:'20px',
+                    height:'20px',
+                    width:'20px'
+                  }} src={gitHub}/>
+        </a>
+
 
 
 
